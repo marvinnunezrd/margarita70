@@ -433,3 +433,24 @@ footer {
     height: 430px;
   }
 }
+
+/* ========================= */
+/* LOCATION LINK */
+/* ========================= */
+
+.location-link,
+.location-link:visited {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.location-link:hover {
+  color: #d6b85a;
+  text-decoration: none;
+}
+
+.location-link::after {
+  content: "  📍";
+  font-size: 0.9em;
+}
